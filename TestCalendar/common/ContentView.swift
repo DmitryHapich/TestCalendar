@@ -54,20 +54,16 @@ struct ContentView: View {
                 
                 Tab("today", image: "TodayTabIcon", value: AppTab.today) {
                     TodayView()
-                        .toolbarVisibility(tabBarVisibility, for: .tabBar)
                 }
                 Tab("august", image: "CalendarTabIcon", value: AppTab.calendar) {
                     CalendarView()
                         .environmentObject(CalendarManager.shared)
-                        .toolbarVisibility(tabBarVisibility, for: .tabBar)
                 }
                 Tab("client", image: "ClientTabIcon", value: AppTab.client) {
                     ClientsView()
-                        .toolbarVisibility(tabBarVisibility, for: .tabBar)
                 }
                 Tab("payouts", image: "PayloadsTabIcons", value: AppTab.payouts) {
                     PayoutsView()
-                        .toolbarVisibility(tabBarVisibility, for: .tabBar)
                 }
             } .fabBar(
                 selection: $selected,

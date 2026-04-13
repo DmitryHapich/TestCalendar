@@ -22,7 +22,7 @@ struct TestCalendarApp: App {
     func setupTabBar() {
         let appearance = UITabBarAppearance()
         appearance.configureWithDefaultBackground()
-        appearance.backgroundColor = .white
+        appearance.backgroundColor = .tcMenuBG
         
         let normalAttrs: [NSAttributedString.Key: Any] = [
             .foregroundColor: UIColor.tcCalTitle,
