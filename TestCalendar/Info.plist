@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>UIAppFonts</key>
+	<array>
+		<string>Enkel-Black.ttf</string>
+		<string>Enkel-BlackOblique.ttf</string>
+		<string>Enkel-Bold.ttf</string>
+		<string>Enkel-BoldOblique.ttf</string>
+		<string>Enkel-ExtraLight.ttf</string>
+		<string>Enkel-ExtraLightOblique.ttf</string>
+		<string>Enkel-Light.ttf</string>
+		<string>Enkel-LightOblique.ttf</string>
+		<string>Enkel-Medium.ttf</string>
+		<string>Enkel-MediumOblique.ttf</string>
+		<string>Enkel-Regular.ttf</string>
+		<string>Enkel-RegularOblique.ttf</string>
+		<string>Enkel-SemiBold.ttf</string>
+		<string>Enkel-SemiBoldOblique.ttf</string>
+		<string>Enkel-Thin.ttf</string>
+		<string>Enkel-ThinOblique.ttf</string>
+	</array>
+	<key>UIUserInterfaceStyle</key>
+	<string>Dark</string>
+</dict>
+</plist>

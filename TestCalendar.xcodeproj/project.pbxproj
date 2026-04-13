@@ -6,17 +6,111 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		42DC08212F8D22C8006F4637 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC081E2F8D22C8006F4637 /* ContentView.swift */; };
+		42DC08222F8D22C8006F4637 /* TestCalendarApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC081F2F8D22C8006F4637 /* TestCalendarApp.swift */; };
+		42DC08232F8D22C8006F4637 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42DC081D2F8D22C8006F4637 /* Assets.xcassets */; };
+		42DC08262F8D232A006F4637 /* CalendarManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08252F8D2329006F4637 /* CalendarManager.swift */; };
+		42DC084F2F8D24EF006F4637 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC084E2F8D24EE006F4637 /* Models.swift */; };
+		42DC085A2F8D25BE006F4637 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08592F8D25BD006F4637 /* Appointment.swift */; };
+		42DC085C2F8D25CC006F4637 /* WeekDay.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC085B2F8D25CC006F4637 /* WeekDay.swift */; };
+		42DC085D2F8D25E2006F4637 /* Fonts+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC084B2F8D249E006F4637 /* Fonts+ext.swift */; };
+		42DC085E2F8D25E2006F4637 /* Date+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC084C2F8D24B5006F4637 /* Date+ext.swift */; };
+		42DC085F2F8D25E2006F4637 /* Color+ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC084D2F8D24C4006F4637 /* Color+ext.swift */; };
+		42DC08602F8D25E8006F4637 /* Modifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08492F8D247C006F4637 /* Modifiers.swift */; };
+		42DC08612F8D25F1006F4637 /* TodayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08512F8D253E006F4637 /* TodayView.swift */; };
+		42DC08622F8D25F7006F4637 /* ClientsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08562F8D2586006F4637 /* ClientsView.swift */; };
+		42DC08632F8D25FB006F4637 /* PayoutsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08572F8D2599006F4637 /* PayoutsView.swift */; };
+		42DC08642F8D2602006F4637 /* Enkel-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08352F8D23B0006F4637 /* Enkel-SemiBold.ttf */; };
+		42DC08652F8D2602006F4637 /* Enkel-Thin.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08372F8D23B0006F4637 /* Enkel-Thin.ttf */; };
+		42DC08662F8D2602006F4637 /* Enkel-ExtraLight.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC082D2F8D23B0006F4637 /* Enkel-ExtraLight.ttf */; };
+		42DC08672F8D2602006F4637 /* Enkel-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08332F8D23B0006F4637 /* Enkel-Regular.ttf */; };
+		42DC08682F8D2602006F4637 /* Enkel-LightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08302F8D23B0006F4637 /* Enkel-LightOblique.ttf */; };
+		42DC08692F8D2602006F4637 /* Enkel-MediumOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08322F8D23B0006F4637 /* Enkel-MediumOblique.ttf */; };
+		42DC086A2F8D2602006F4637 /* Enkel-ThinOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08382F8D23B0006F4637 /* Enkel-ThinOblique.ttf */; };
+		42DC086B2F8D2602006F4637 /* Enkel-RegularOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08342F8D23B0006F4637 /* Enkel-RegularOblique.ttf */; };
+		42DC086C2F8D2602006F4637 /* Enkel-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC082F2F8D23B0006F4637 /* Enkel-Light.ttf */; };
+		42DC086D2F8D2602006F4637 /* Enkel-Black.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08292F8D23B0006F4637 /* Enkel-Black.ttf */; };
+		42DC086E2F8D2602006F4637 /* Enkel-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08312F8D23B0006F4637 /* Enkel-Medium.ttf */; };
+		42DC086F2F8D2602006F4637 /* Enkel-ExtraLightOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC082E2F8D23B0006F4637 /* Enkel-ExtraLightOblique.ttf */; };
+		42DC08702F8D2602006F4637 /* Enkel-SemiBoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC08362F8D23B0006F4637 /* Enkel-SemiBoldOblique.ttf */; };
+		42DC08712F8D2602006F4637 /* Enkel-BlackOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC082A2F8D23B0006F4637 /* Enkel-BlackOblique.ttf */; };
+		42DC08722F8D2602006F4637 /* Enkel-BoldOblique.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC082C2F8D23B0006F4637 /* Enkel-BoldOblique.ttf */; };
+		42DC08732F8D2602006F4637 /* Enkel-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 42DC082B2F8D23B0006F4637 /* Enkel-Bold.ttf */; };
+		42DC08742F8D260C006F4637 /* GlassTabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC083F2F8D2471006F4637 /* GlassTabBarView.swift */; };
+		42DC08752F8D260C006F4637 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC083D2F8D2471006F4637 /* Constants.swift */; };
+		42DC08762F8D260C006F4637 /* FabBarAction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08442F8D2471006F4637 /* FabBarAction.swift */; };
+		42DC08772F8D260C006F4637 /* TabItemContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08412F8D2471006F4637 /* TabItemContentView.swift */; };
+		42DC08782F8D260C006F4637 /* FabBarModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08452F8D2471006F4637 /* FabBarModifier.swift */; };
+		42DC08792F8D260C006F4637 /* FabBarSafeAreaPaddingModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08462F8D2471006F4637 /* FabBarSafeAreaPaddingModifier.swift */; };
+		42DC087A2F8D260C006F4637 /* FabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08432F8D2471006F4637 /* FabBar.swift */; };
+		42DC087B2F8D260C006F4637 /* FabBarRepresentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC083E2F8D2471006F4637 /* FabBarRepresentable.swift */; };
+		42DC087C2F8D260C006F4637 /* TabBarSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08402F8D2471006F4637 /* TabBarSegmentedControl.swift */; };
+		42DC087D2F8D260C006F4637 /* FabBarTab.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08472F8D2471006F4637 /* FabBarTab.swift */; };
+		42DC087F2F8D2680006F4637 /* CalendarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC087E2F8D267F006F4637 /* CalendarView.swift */; };
+		42DC08812F8D26A3006F4637 /* CalendarHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08802F8D26A1006F4637 /* CalendarHeaderView.swift */; };
+		42DC08842F8D26C6006F4637 /* WeekDayCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08832F8D26C6006F4637 /* WeekDayCell.swift */; };
+		42DC08862F8D26E7006F4637 /* CurrentTimeBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08852F8D26E6006F4637 /* CurrentTimeBar.swift */; };
+		42DC08882F8D26F7006F4637 /* AppointmentCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08872F8D26F6006F4637 /* AppointmentCard.swift */; };
+		42DC088A2F8D2727006F4637 /* TimelineHourRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC08892F8D2727006F4637 /* TimelineHourRow.swift */; };
+		42DC088C2F8D273C006F4637 /* CalendarLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC088B2F8D273B006F4637 /* CalendarLoadingView.swift */; };
+		42DC088E2F8D274F006F4637 /* CalendarDayOffView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC088D2F8D274E006F4637 /* CalendarDayOffView.swift */; };
+		42DC08902F8D275E006F4637 /* CalendarErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42DC088F2F8D275D006F4637 /* CalendarErrorView.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		42DC080F2F8D22C1006F4637 /* TestCalendar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestCalendar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		42DC081D2F8D22C8006F4637 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42DC081E2F8D22C8006F4637 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		42DC081F2F8D22C8006F4637 /* TestCalendarApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestCalendarApp.swift; sourceTree = "<group>"; };
+		42DC08252F8D2329006F4637 /* CalendarManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarManager.swift; sourceTree = "<group>"; };
+		42DC08292F8D23B0006F4637 /* Enkel-Black.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-Black.ttf"; sourceTree = "<group>"; };
+		42DC082A2F8D23B0006F4637 /* Enkel-BlackOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-BlackOblique.ttf"; sourceTree = "<group>"; };
+		42DC082B2F8D23B0006F4637 /* Enkel-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-Bold.ttf"; sourceTree = "<group>"; };
+		42DC082C2F8D23B0006F4637 /* Enkel-BoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-BoldOblique.ttf"; sourceTree = "<group>"; };
+		42DC082D2F8D23B0006F4637 /* Enkel-ExtraLight.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-ExtraLight.ttf"; sourceTree = "<group>"; };
+		42DC082E2F8D23B0006F4637 /* Enkel-ExtraLightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-ExtraLightOblique.ttf"; sourceTree = "<group>"; };
+		42DC082F2F8D23B0006F4637 /* Enkel-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-Light.ttf"; sourceTree = "<group>"; };
+		42DC08302F8D23B0006F4637 /* Enkel-LightOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-LightOblique.ttf"; sourceTree = "<group>"; };
+		42DC08312F8D23B0006F4637 /* Enkel-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-Medium.ttf"; sourceTree = "<group>"; };
+		42DC08322F8D23B0006F4637 /* Enkel-MediumOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-MediumOblique.ttf"; sourceTree = "<group>"; };
+		42DC08332F8D23B0006F4637 /* Enkel-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-Regular.ttf"; sourceTree = "<group>"; };
+		42DC08342F8D23B0006F4637 /* Enkel-RegularOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-RegularOblique.ttf"; sourceTree = "<group>"; };
+		42DC08352F8D23B0006F4637 /* Enkel-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-SemiBold.ttf"; sourceTree = "<group>"; };
+		42DC08362F8D23B0006F4637 /* Enkel-SemiBoldOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-SemiBoldOblique.ttf"; sourceTree = "<group>"; };
+		42DC08372F8D23B0006F4637 /* Enkel-Thin.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-Thin.ttf"; sourceTree = "<group>"; };
+		42DC08382F8D23B0006F4637 /* Enkel-ThinOblique.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Enkel-ThinOblique.ttf"; sourceTree = "<group>"; };
+		42DC08392F8D23C3006F4637 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42DC083D2F8D2471006F4637 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		42DC083E2F8D2471006F4637 /* FabBarRepresentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabBarRepresentable.swift; sourceTree = "<group>"; };
+		42DC083F2F8D2471006F4637 /* GlassTabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlassTabBarView.swift; sourceTree = "<group>"; };
+		42DC08402F8D2471006F4637 /* TabBarSegmentedControl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarSegmentedControl.swift; sourceTree = "<group>"; };
+		42DC08412F8D2471006F4637 /* TabItemContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabItemContentView.swift; sourceTree = "<group>"; };
+		42DC08432F8D2471006F4637 /* FabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabBar.swift; sourceTree = "<group>"; };
+		42DC08442F8D2471006F4637 /* FabBarAction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabBarAction.swift; sourceTree = "<group>"; };
+		42DC08452F8D2471006F4637 /* FabBarModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabBarModifier.swift; sourceTree = "<group>"; };
+		42DC08462F8D2471006F4637 /* FabBarSafeAreaPaddingModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabBarSafeAreaPaddingModifier.swift; sourceTree = "<group>"; };
+		42DC08472F8D2471006F4637 /* FabBarTab.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FabBarTab.swift; sourceTree = "<group>"; };
+		42DC08492F8D247C006F4637 /* Modifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Modifiers.swift; sourceTree = "<group>"; };
+		42DC084B2F8D249E006F4637 /* Fonts+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Fonts+ext.swift"; sourceTree = "<group>"; };
+		42DC084C2F8D24B5006F4637 /* Date+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+ext.swift"; sourceTree = "<group>"; };
+		42DC084D2F8D24C4006F4637 /* Color+ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+ext.swift"; sourceTree = "<group>"; };
+		42DC084E2F8D24EE006F4637 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
+		42DC08512F8D253E006F4637 /* TodayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TodayView.swift; sourceTree = "<group>"; };
+		42DC08562F8D2586006F4637 /* ClientsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClientsView.swift; sourceTree = "<group>"; };
+		42DC08572F8D2599006F4637 /* PayoutsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayoutsView.swift; sourceTree = "<group>"; };
+		42DC08592F8D25BD006F4637 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		42DC085B2F8D25CC006F4637 /* WeekDay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDay.swift; sourceTree = "<group>"; };
+		42DC087E2F8D267F006F4637 /* CalendarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarView.swift; sourceTree = "<group>"; };
+		42DC08802F8D26A1006F4637 /* CalendarHeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarHeaderView.swift; sourceTree = "<group>"; };
+		42DC08832F8D26C6006F4637 /* WeekDayCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekDayCell.swift; sourceTree = "<group>"; };
+		42DC08852F8D26E6006F4637 /* CurrentTimeBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentTimeBar.swift; sourceTree = "<group>"; };
+		42DC08872F8D26F6006F4637 /* AppointmentCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppointmentCard.swift; sourceTree = "<group>"; };
+		42DC08892F8D2727006F4637 /* TimelineHourRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimelineHourRow.swift; sourceTree = "<group>"; };
+		42DC088B2F8D273B006F4637 /* CalendarLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarLoadingView.swift; sourceTree = "<group>"; };
+		42DC088D2F8D274E006F4637 /* CalendarDayOffView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarDayOffView.swift; sourceTree = "<group>"; };
+		42DC088F2F8D275D006F4637 /* CalendarErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		42DC08112F8D22C1006F4637 /* TestCalendar */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			path = TestCalendar;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		42DC080C2F8D22C1006F4637 /* Frameworks */ = {
@@ -32,7 +126,7 @@
 		42DC08062F8D22C1006F4637 = {
 			isa = PBXGroup;
 			children = (
-				42DC08112F8D22C1006F4637 /* TestCalendar */,
+				42DC08202F8D22C8006F4637 /* TestCalendar */,
 				42DC08102F8D22C1006F4637 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -43,6 +137,167 @@
 				42DC080F2F8D22C1006F4637 /* TestCalendar.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		42DC08202F8D22C8006F4637 /* TestCalendar */ = {
+			isa = PBXGroup;
+			children = (
+				42DC081D2F8D22C8006F4637 /* Assets.xcassets */,
+				42DC08392F8D23C3006F4637 /* Info.plist */,
+				42DC08582F8D25B1006F4637 /* models */,
+				42DC083C2F8D2451006F4637 /* screens */,
+				42DC08242F8D2318006F4637 /* common */,
+				42DC083B2F8D243F006F4637 /* utils */,
+				42DC08272F8D2387006F4637 /* resources */,
+			);
+			path = TestCalendar;
+			sourceTree = "<group>";
+		};
+		42DC08242F8D2318006F4637 /* common */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08252F8D2329006F4637 /* CalendarManager.swift */,
+				42DC081F2F8D22C8006F4637 /* TestCalendarApp.swift */,
+				42DC081E2F8D22C8006F4637 /* ContentView.swift */,
+			);
+			path = common;
+			sourceTree = "<group>";
+		};
+		42DC08272F8D2387006F4637 /* resources */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08282F8D23A5006F4637 /* font */,
+			);
+			path = resources;
+			sourceTree = "<group>";
+		};
+		42DC08282F8D23A5006F4637 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08292F8D23B0006F4637 /* Enkel-Black.ttf */,
+				42DC082A2F8D23B0006F4637 /* Enkel-BlackOblique.ttf */,
+				42DC082B2F8D23B0006F4637 /* Enkel-Bold.ttf */,
+				42DC082C2F8D23B0006F4637 /* Enkel-BoldOblique.ttf */,
+				42DC082D2F8D23B0006F4637 /* Enkel-ExtraLight.ttf */,
+				42DC082E2F8D23B0006F4637 /* Enkel-ExtraLightOblique.ttf */,
+				42DC082F2F8D23B0006F4637 /* Enkel-Light.ttf */,
+				42DC08302F8D23B0006F4637 /* Enkel-LightOblique.ttf */,
+				42DC08312F8D23B0006F4637 /* Enkel-Medium.ttf */,
+				42DC08322F8D23B0006F4637 /* Enkel-MediumOblique.ttf */,
+				42DC08332F8D23B0006F4637 /* Enkel-Regular.ttf */,
+				42DC08342F8D23B0006F4637 /* Enkel-RegularOblique.ttf */,
+				42DC08352F8D23B0006F4637 /* Enkel-SemiBold.ttf */,
+				42DC08362F8D23B0006F4637 /* Enkel-SemiBoldOblique.ttf */,
+				42DC08372F8D23B0006F4637 /* Enkel-Thin.ttf */,
+				42DC08382F8D23B0006F4637 /* Enkel-ThinOblique.ttf */,
+			);
+			path = font;
+			sourceTree = "<group>";
+		};
+		42DC083B2F8D243F006F4637 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08492F8D247C006F4637 /* Modifiers.swift */,
+				42DC084A2F8D2492006F4637 /* extensions */,
+				42DC08482F8D2471006F4637 /* FabBar */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		42DC083C2F8D2451006F4637 /* screens */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08502F8D2535006F4637 /* today */,
+				42DC08522F8D254C006F4637 /* calendar */,
+				42DC08542F8D2561006F4637 /* clients */,
+				42DC08552F8D256E006F4637 /* payouts */,
+			);
+			path = screens;
+			sourceTree = "<group>";
+		};
+		42DC08422F8D2471006F4637 /* Internal */ = {
+			isa = PBXGroup;
+			children = (
+				42DC083D2F8D2471006F4637 /* Constants.swift */,
+				42DC083E2F8D2471006F4637 /* FabBarRepresentable.swift */,
+				42DC083F2F8D2471006F4637 /* GlassTabBarView.swift */,
+				42DC08402F8D2471006F4637 /* TabBarSegmentedControl.swift */,
+				42DC08412F8D2471006F4637 /* TabItemContentView.swift */,
+			);
+			path = Internal;
+			sourceTree = "<group>";
+		};
+		42DC08482F8D2471006F4637 /* FabBar */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08422F8D2471006F4637 /* Internal */,
+				42DC08432F8D2471006F4637 /* FabBar.swift */,
+				42DC08442F8D2471006F4637 /* FabBarAction.swift */,
+				42DC08452F8D2471006F4637 /* FabBarModifier.swift */,
+				42DC08462F8D2471006F4637 /* FabBarSafeAreaPaddingModifier.swift */,
+				42DC08472F8D2471006F4637 /* FabBarTab.swift */,
+			);
+			path = FabBar;
+			sourceTree = "<group>";
+		};
+		42DC084A2F8D2492006F4637 /* extensions */ = {
+			isa = PBXGroup;
+			children = (
+				42DC084B2F8D249E006F4637 /* Fonts+ext.swift */,
+				42DC084C2F8D24B5006F4637 /* Date+ext.swift */,
+				42DC084D2F8D24C4006F4637 /* Color+ext.swift */,
+			);
+			path = extensions;
+			sourceTree = "<group>";
+		};
+		42DC08502F8D2535006F4637 /* today */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08512F8D253E006F4637 /* TodayView.swift */,
+			);
+			path = today;
+			sourceTree = "<group>";
+		};
+		42DC08522F8D254C006F4637 /* calendar */ = {
+			isa = PBXGroup;
+			children = (
+				42DC087E2F8D267F006F4637 /* CalendarView.swift */,
+				42DC08802F8D26A1006F4637 /* CalendarHeaderView.swift */,
+				42DC08832F8D26C6006F4637 /* WeekDayCell.swift */,
+				42DC08852F8D26E6006F4637 /* CurrentTimeBar.swift */,
+				42DC08872F8D26F6006F4637 /* AppointmentCard.swift */,
+				42DC08892F8D2727006F4637 /* TimelineHourRow.swift */,
+				42DC088B2F8D273B006F4637 /* CalendarLoadingView.swift */,
+				42DC088D2F8D274E006F4637 /* CalendarDayOffView.swift */,
+				42DC088F2F8D275D006F4637 /* CalendarErrorView.swift */,
+			);
+			path = calendar;
+			sourceTree = "<group>";
+		};
+		42DC08542F8D2561006F4637 /* clients */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08562F8D2586006F4637 /* ClientsView.swift */,
+			);
+			path = clients;
+			sourceTree = "<group>";
+		};
+		42DC08552F8D256E006F4637 /* payouts */ = {
+			isa = PBXGroup;
+			children = (
+				42DC08572F8D2599006F4637 /* PayoutsView.swift */,
+			);
+			path = payouts;
+			sourceTree = "<group>";
+		};
+		42DC08582F8D25B1006F4637 /* models */ = {
+			isa = PBXGroup;
+			children = (
+				42DC084E2F8D24EE006F4637 /* Models.swift */,
+				42DC08592F8D25BD006F4637 /* Appointment.swift */,
+				42DC085B2F8D25CC006F4637 /* WeekDay.swift */,
+			);
+			path = models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,9 +314,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				42DC08112F8D22C1006F4637 /* TestCalendar */,
 			);
 			name = TestCalendar;
 			packageProductDependencies = (
@@ -109,6 +361,23 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DC08232F8D22C8006F4637 /* Assets.xcassets in Resources */,
+				42DC08642F8D2602006F4637 /* Enkel-SemiBold.ttf in Resources */,
+				42DC08652F8D2602006F4637 /* Enkel-Thin.ttf in Resources */,
+				42DC08662F8D2602006F4637 /* Enkel-ExtraLight.ttf in Resources */,
+				42DC08672F8D2602006F4637 /* Enkel-Regular.ttf in Resources */,
+				42DC08682F8D2602006F4637 /* Enkel-LightOblique.ttf in Resources */,
+				42DC08692F8D2602006F4637 /* Enkel-MediumOblique.ttf in Resources */,
+				42DC086A2F8D2602006F4637 /* Enkel-ThinOblique.ttf in Resources */,
+				42DC086B2F8D2602006F4637 /* Enkel-RegularOblique.ttf in Resources */,
+				42DC086C2F8D2602006F4637 /* Enkel-Light.ttf in Resources */,
+				42DC086D2F8D2602006F4637 /* Enkel-Black.ttf in Resources */,
+				42DC086E2F8D2602006F4637 /* Enkel-Medium.ttf in Resources */,
+				42DC086F2F8D2602006F4637 /* Enkel-ExtraLightOblique.ttf in Resources */,
+				42DC08702F8D2602006F4637 /* Enkel-SemiBoldOblique.ttf in Resources */,
+				42DC08712F8D2602006F4637 /* Enkel-BlackOblique.ttf in Resources */,
+				42DC08722F8D2602006F4637 /* Enkel-BoldOblique.ttf in Resources */,
+				42DC08732F8D2602006F4637 /* Enkel-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -119,6 +388,38 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				42DC085C2F8D25CC006F4637 /* WeekDay.swift in Sources */,
+				42DC08262F8D232A006F4637 /* CalendarManager.swift in Sources */,
+				42DC087F2F8D2680006F4637 /* CalendarView.swift in Sources */,
+				42DC08212F8D22C8006F4637 /* ContentView.swift in Sources */,
+				42DC08222F8D22C8006F4637 /* TestCalendarApp.swift in Sources */,
+				42DC08742F8D260C006F4637 /* GlassTabBarView.swift in Sources */,
+				42DC08842F8D26C6006F4637 /* WeekDayCell.swift in Sources */,
+				42DC08752F8D260C006F4637 /* Constants.swift in Sources */,
+				42DC08762F8D260C006F4637 /* FabBarAction.swift in Sources */,
+				42DC08772F8D260C006F4637 /* TabItemContentView.swift in Sources */,
+				42DC08782F8D260C006F4637 /* FabBarModifier.swift in Sources */,
+				42DC08862F8D26E7006F4637 /* CurrentTimeBar.swift in Sources */,
+				42DC08792F8D260C006F4637 /* FabBarSafeAreaPaddingModifier.swift in Sources */,
+				42DC087A2F8D260C006F4637 /* FabBar.swift in Sources */,
+				42DC087B2F8D260C006F4637 /* FabBarRepresentable.swift in Sources */,
+				42DC087C2F8D260C006F4637 /* TabBarSegmentedControl.swift in Sources */,
+				42DC087D2F8D260C006F4637 /* FabBarTab.swift in Sources */,
+				42DC08902F8D275E006F4637 /* CalendarErrorView.swift in Sources */,
+				42DC08882F8D26F7006F4637 /* AppointmentCard.swift in Sources */,
+				42DC08612F8D25F1006F4637 /* TodayView.swift in Sources */,
+				42DC08622F8D25F7006F4637 /* ClientsView.swift in Sources */,
+				42DC08602F8D25E8006F4637 /* Modifiers.swift in Sources */,
+				42DC084F2F8D24EF006F4637 /* Models.swift in Sources */,
+				42DC088E2F8D274F006F4637 /* CalendarDayOffView.swift in Sources */,
+				42DC085A2F8D25BE006F4637 /* Appointment.swift in Sources */,
+				42DC088C2F8D273C006F4637 /* CalendarLoadingView.swift in Sources */,
+				42DC085D2F8D25E2006F4637 /* Fonts+ext.swift in Sources */,
+				42DC08632F8D25FB006F4637 /* PayoutsView.swift in Sources */,
+				42DC085E2F8D25E2006F4637 /* Date+ext.swift in Sources */,
+				42DC08812F8D26A3006F4637 /* CalendarHeaderView.swift in Sources */,
+				42DC085F2F8D25E2006F4637 /* Color+ext.swift in Sources */,
+				42DC088A2F8D2727006F4637 /* TimelineHourRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -256,11 +557,13 @@
 				DEVELOPMENT_TEAM = 6GKM5LYGGH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -269,12 +572,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.requestum.TestCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -288,11 +595,13 @@
 				DEVELOPMENT_TEAM = 6GKM5LYGGH;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = TestCalendar/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,12 +610,16 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.requestum.TestCalendar;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_APPROACHABLE_CONCURRENCY = YES;
 				SWIFT_DEFAULT_ACTOR_ISOLATION = MainActor;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
